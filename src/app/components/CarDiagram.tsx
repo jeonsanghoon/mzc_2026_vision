@@ -13,22 +13,22 @@ const STEPS = [
 ];
 
 /**
- * Model Y Juniper 후측면 윗방향 뷰 (날렵한 라인 드로잉)
+ * 적용된 버전: 뒷쪽 기준, 약간 위에서 본 스케치. Model Y Juniper.
  */
-const DIAGRAM_IMAGE = "/car-model-y-juniper-rear-quarter-top.png";
+const DIAGRAM_IMAGE = "/car-model-y-rear-left-45-sketch.png?v=2";
 
 const ARROW_LABELS = [
-  { label: "① 전방 카메라", left: "12%", top: "22%", lineTo: { left: "32%", top: "30%" } },   // 전방부
-  { label: "② 구동 모터", left: "15%", top: "48%", lineTo: { left: "35%", top: "48%" } },   // 프론트/구동계
-  { label: "③ 모니터", left: "78%", top: "18%", lineTo: { left: "55%", top: "38%" } },     // 실내 대시보드
-  { label: "④ 핸들", left: "90%", top: "42%", lineTo: { left: "60%", top: "52%" } },        // 운전석 핸들
+  { label: "① 수집-카메라", left: "50%", top: "5%", lineTo: { left: "40%", top: "23%" } },   // 전방부(앞쪽)
+  { label: "② 통합-모터", left: "78%", top: "10%", lineTo: { left: "62%", top: "65%" } },   // 후부 하단
+  { label: "③ 화면-분석", left: "30%", top: "5%", lineTo: { left: "35%", top: "30%" } },     // 실내 모니터
+  { label: "④ AI-자율주행", left: "10%", top: "10%", lineTo: { left: "32%", top: "35%" } },        // 실내 핸들
 ];
 
 /** 화살표용 은은한 색 (배경과 어울리게) */
 const ARROW_STROKE = ["#64748b", "#0e7490", "#6d28d9", "#be185d"]; // slate-500, cyan-600, violet-600, pink-600
 
 /**
- * Model Y Juniper 후측면 윗방향. 이미지 변경 시 ARROW_LABELS 좌표 재조정 가능.
+ * 적용된 차량 이미지 기준. 이미지 변경 시 ARROW_LABELS 좌표만 조정.
  */
 export function CarDiagram() {
   return (
@@ -42,7 +42,7 @@ export function CarDiagram() {
         <div className="relative w-full">
           <img
             src={DIAGRAM_IMAGE}
-            alt="전방 카메라·구동 모터·모니터·핸들 매핑"
+            alt="전방 카메라·구동 모터·모니터· 매핑"
             className="w-full h-auto block object-contain grayscale contrast-110"
           />
           {/* 화살표: 얇은 점선 + 작은 삼각형, 은은한 색 */}

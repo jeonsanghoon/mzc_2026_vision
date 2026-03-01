@@ -6,7 +6,7 @@ import { CarDiagram } from "./CarDiagram";
  */
 export function Slide1() {
   return (
-    <div className="min-h-[100dvh] min-h-screen w-full max-w-[100vw] overflow-x-hidden flex flex-col items-center justify-center pt-8 sm:pt-16 pb-16 sm:pb-28 px-2 sm:pl-6 sm:pr-16 md:pl-10 md:pr-[4.5rem] bg-gradient-to-br from-slate-50 via-white to-blue-50/40">
+    <div className="min-h-[100dvh] min-h-screen w-full max-w-[100vw] overflow-x-hidden flex flex-col items-center justify-center pt-8 sm:pt-16 pb-16 sm:pb-28 px-2 sm:pl-6 sm:pr-16 md:pl-10 md:pr-[4.5rem] bg-white">
       <div className="max-w-5xl w-full min-w-0 flex flex-col items-center">
         <motion.div
           initial={{ opacity: 0, y: 12 }}

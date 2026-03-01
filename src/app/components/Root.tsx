@@ -45,7 +45,7 @@ export function Root() {
   });
 
   return (
-    <div className="min-h-[100dvh] min-h-screen w-full max-w-[100vw] overflow-x-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
+    <div className="min-h-[100dvh] min-h-screen w-full max-w-[100vw] overflow-x-hidden bg-white">
       <Outlet />
 
       {/* Navigation Controls - 콘텐츠와 겹치지 않도록 z-index */}

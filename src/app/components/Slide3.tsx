@@ -65,7 +65,7 @@ export function Slide3() {
   ];
 
   return (
-    <div className="min-h-[100dvh] min-h-screen w-full max-w-[100vw] overflow-x-hidden flex flex-col overflow-y-auto bg-gradient-to-br from-white via-blue-50 to-slate-50 pt-8 sm:pt-16 pb-16 sm:pb-28 px-2 sm:pl-6 sm:pr-16 md:pl-12 md:pr-[4.5rem]">
+    <div className="min-h-[100dvh] min-h-screen w-full max-w-[100vw] overflow-x-hidden flex flex-col overflow-y-auto bg-white pt-8 sm:pt-16 pb-16 sm:pb-28 px-2 sm:pl-6 sm:pr-16 md:pl-12 md:pr-[4.5rem]">
       <div className="max-w-7xl w-full min-w-0 py-2 sm:py-8 mx-auto flex-1 flex flex-col items-center justify-start">
         <p className="text-blue-600/80 text-xs font-bold tracking-widest uppercase text-center mb-1 sm:mb-2">
           02 · 플랫폼 구성
