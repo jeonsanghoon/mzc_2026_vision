@@ -15,7 +15,7 @@ const STEPS = [
 /**
  * 적용된 버전: 뒷쪽 기준, 약간 위에서 본 스케치. Model Y Juniper.
  */
-const DIAGRAM_IMAGE = "/car-model-y-rear-left-45-sketch.png?v=2";
+const DIAGRAM_IMAGE = "/car-model-y-rear-left-45-sketch.png?v=4";
 
 const ARROW_LABELS = [
   { label: "① 수집-카메라", left: "50%", top: "5%", lineTo: { left: "40%", top: "23%" } },   // 전방부(앞쪽)
