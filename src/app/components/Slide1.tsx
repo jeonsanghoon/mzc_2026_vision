@@ -26,7 +26,7 @@ export function Slide1() {
             여러 방향이 한 흐름으로, 그리고 자율주행
           </p>
           <p className="text-sm sm:text-base text-slate-500 mt-1 break-words">
-            자율주행 데이터 처리 및 통합 기술
+            다채널 데이터 처리 및 통합 기술
           </p>
         </motion.div>
 

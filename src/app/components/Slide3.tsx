@@ -17,12 +17,13 @@ export function Slide3() {
       details: [
         "프로토콜: TCP, MQTT, REST API, gRPC, WebSocket",
         "수집 형태: 실시간, 배치(이전 데이터·실시간 데이터)",
+        "실시간·이전 데이터 이관 → 서비스 이관의 모티브 → 서비스 안정화",
         "형식: Hex, JSON, CSV, XML, Parquet, 로그 등",
         "원천: IoT 센서, RDBMS, NoSQL, 파일",
       ],
       icon: Database,
       color: "blue",
-      keywords: ["다채널", "YAML", "Hot/Warm/Cold"],
+      keywords: ["다채널", "YAML", "Hot/Warm/Cold", "서비스 안정화"],
     },
     {
       num: "2",
@@ -32,10 +33,11 @@ export function Slide3() {
         "제품별 YAML 스펙으로 변환·표준화",
         "Hot·Warm·Cold 계층 저장",
         "원시 데이터 수집 후 분석·집계·알림용 데이터 생성·적재",
+        "이관 데이터 통합으로 서비스 이관·안정화 기반 마련",
       ],
       icon: Cpu,
       color: "cyan",
-      keywords: ["API 자동화", "배치 파이프라인", "분석·알림 데이터"],
+      keywords: ["API 자동화", "배치 파이프라인", "분석·알림 데이터", "서비스 이관"],
     },
     {
       num: "3",
